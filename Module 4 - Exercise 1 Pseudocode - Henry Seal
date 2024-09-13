@@ -1,0 +1,16 @@
+random number between 1 and 100 = randomNumber
+
+ask user to input guess
+input = numberGuess
+
+if numberGuess is < randomNumber
+then print "Too low, guess again!"
+
+if numberGuess is > randomNumber
+then print "Too high, guess again"
+
+if numberGuess doesn't = randomNumber
+then ask user to input new guess
+
+if numberGuess = randomNumber
+then print "Congratulations, you got it!"
