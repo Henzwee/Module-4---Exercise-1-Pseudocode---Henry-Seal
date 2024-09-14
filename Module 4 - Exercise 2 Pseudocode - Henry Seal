@@ -6,14 +6,9 @@ targetWord = user input
 
 if currentPageWord < targetWord
 then print "Current word is too early in the dictionary, flip forward."
-flip forward in the dictionary
-currentPageWord = word on new page
 
 if currentPageWord > targetWord
 then print "Current word is too late in the dictionary, flip backward."
-flip backward in the dictionary
-currentPageWord = word on new page
 
 if currentPageWord = targetWord
-then print "Congratulations, you found the word: " + targetWord
-
+then print "This is the page!"
